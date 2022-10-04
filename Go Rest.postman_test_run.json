@@ -1,0 +1,61 @@
+{
+	"id": "6766b64c-0f77-48e6-9722-00c6a7fd577b",
+	"name": "Go Rest",
+	"timestamp": "2022-09-21T12:51:13.732Z",
+	"collection_id": "16819792-bb01b013-0d54-45b5-bed1-c0e04e8f81b1",
+	"folder_id": "16819792-be78fe2b-3552-4a2e-8690-cd8ef7cbb4fc",
+	"environment_id": "16819792-1e700642-6046-44ec-9909-0a31dfb5daf0",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "419163d1-4fc9-4678-8b7f-94681424f968",
+			"name": "Criação De Usuário",
+			"url": "https://gorest.co.in//public-api/users/",
+			"time": 1198,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Response time is less than 1300ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1300ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1198
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 1300ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1198,
+	"collection": {
+		"requests": [
+			{
+				"id": "419163d1-4fc9-4678-8b7f-94681424f968",
+				"method": "POST"
+			}
+		]
+	}
+}
